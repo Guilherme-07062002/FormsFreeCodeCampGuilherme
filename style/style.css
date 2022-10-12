@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url('/imgs/background.jpg');
+    background-size: cover;
+    font-size: 23px;
+    font-family: sans-serif;
+    line-height: 38px;
+}
+
+form#survey-form {
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 600px;
+    height: 1300px;
+    background-color: #7261438c;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h1,
+p {
+    text-align: center;
+    margin: 5px;
+}
+
+h1 {
+    margin-top: 60px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+form#survey-form p {
+    text-align: left;
+    margin: 0px;
+}
+
+input:not(input[type="radio"], input[type="checkbox"]),
+select,
+textarea {
+    margin-top: 10px;
+    width: 590px;
+    height: 35px;
+    border-radius: 5px;
+    border: purple;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+select {
+    color: grey;
+    font-size: 20px;
+    padding: 6px 0px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 600px;
+}
+
+textarea {
+    height: 140px;
+    resize: none;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+form#survey-form *:not(input) {
+    margin-top: 10px;
+}
+
+button#submit {
+    align-self: center;
+    width: 600px;
+    height: 40px;
+    background-color: #65625c;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+button#submit:hover {
+    transition: 0.5s;
+    background-color: #4d4a45;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
+}
