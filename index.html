@@ -1,97 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-
-<body>
-    <h1 id="title">Freecode Camp</h1>
+  <body>
+    <h1 id="title">Formulário</h1>
     <p id="description">Este é um formulário</p>
     <form id="survey-form">
-        <label id="name-label">Nome
-            <input placeholder="Digite seu nome" id="name" type="text" required="required">
-        </label>
-        <label id="email-label">Email
-            <input placeholder="Digite seu email" id="email" type="email" required="required">
-        </label>
-        <label id="number-label">Idade
-            <input placeholder="Digite sua idade" id="number" type="number" required="required" min="0" max="100">
-        </label>
-        <p>Em que area de desenvolvimento você atua?</p>
-        <select id="dropdown">
-            <option value="sel">Selecione</option>
-            <option value="">Front-end</option>
-            <option value="">Back-end</option>
-            <option value="">Full-stack</option>
-        </select>
+      <label id="name-label"
+        >Nome
+        <input
+          placeholder="Digite seu nome"
+          id="name"
+          type="text"
+          required="required"
+        />
+      </label>
+      <label id="email-label"
+        >Email
+        <input
+          placeholder="Digite seu email"
+          id="email"
+          type="email"
+          required="required"
+        />
+      </label>
+      <label id="number-label"
+        >Idade
+        <input
+          placeholder="Digite sua idade"
+          id="number"
+          type="number"
+          required="required"
+          min="0"
+          max="100"
+        />
+      </label>
+      <p>Em que area de desenvolvimento você atua?</p>
+      <select id="dropdown">
+        <option value="sel">Selecione</option>
+        <option value="">Front-end</option>
+        <option value="">Back-end</option>
+        <option value="">Full-stack</option>
+      </select>
 
-        <p>Como classifica sua experiência como programador?</p>
+      <p>Como classifica sua experiência como programador?</p>
 
-        <ul>
-            <li>
-                <input type="radio" name="botoes" value="opcao1" id="opcao1">
-                <label for="opcao1"> Iniciante
-                </label>
-            </li>
-            <li>
-                <input type="radio" name="botoes" value="opcao2" id="opcao2">
-                <label for="opcao2"> Júnior
-                </label>
-            </li>
-            <li>
-                <input type="radio" name="botoes" value="opcao3" id="opcao3">
-                <label for="opcao3"> Pleno
-                </label>
-            </li>
-            <li>
-                <input type="radio" name="botoes" value="opcao4" id="opcao4">
-                <label for="opcao4"> Senior
-                </label>
-            </li>
-        </ul>
-        <p>Que ferramentas você utiliza?</p>
-        <ul>
-            <li>
-                <input value="opcao1" name="op1" type="checkbox" id="op1">
-                <label for="op1">VS Code
-                </label>
-            </li>
-            <li>
-                <input value="opcao2" name="op2" type="checkbox" id="op2">
-                <label for="op2">Git/Github
-                </label>
-            </li>
-            <li>
-                <input value="opcao3" name="op3" type="checkbox" id="op3">
-                <label for="op3">PyCharm
-                </label>
-            </li>
-            <li>
-                <input value="opcao4" name="op4" type="checkbox" id="op4">
-                <label for="op4">NotePad++
-                </label>
-            </li>
-            <li>
-                <input value="opcao5" name="op5" type="checkbox" id="op5">
-                <label for="op5">NetBeans
-                </label>
-            </li>
-            <li>
-                <input value="opcao6" name="op6" type="checkbox" id="op6">
-                <label for="op6">Outra
-                </label>
-            </li>
-        </ul>
-        <p>Adcione comentários ou sugestões</p>
-        <textarea></textarea>
-        <button id="submit">Enviar</button>
+      <ul>
+        <li>
+          <input type="radio" name="botoes" value="opcao1" id="opcao1" />
+          <label for="opcao1"> Iniciante </label>
+        </li>
+        <li>
+          <input type="radio" name="botoes" value="opcao2" id="opcao2" />
+          <label for="opcao2"> Júnior </label>
+        </li>
+        <li>
+          <input type="radio" name="botoes" value="opcao3" id="opcao3" />
+          <label for="opcao3"> Pleno </label>
+        </li>
+        <li>
+          <input type="radio" name="botoes" value="opcao4" id="opcao4" />
+          <label for="opcao4"> Senior </label>
+        </li>
+      </ul>
+      <p>Que ferramentas você utiliza?</p>
+      <ul>
+        <li>
+          <input value="opcao1" name="op1" type="checkbox" id="op1" />
+          <label for="op1">VS Code </label>
+        </li>
+        <li>
+          <input value="opcao2" name="op2" type="checkbox" id="op2" />
+          <label for="op2">Git/Github </label>
+        </li>
+        <li>
+          <input value="opcao3" name="op3" type="checkbox" id="op3" />
+          <label for="op3">PyCharm </label>
+        </li>
+        <li>
+          <input value="opcao4" name="op4" type="checkbox" id="op4" />
+          <label for="op4">NotePad++ </label>
+        </li>
+        <li>
+          <input value="opcao5" name="op5" type="checkbox" id="op5" />
+          <label for="op5">NetBeans </label>
+        </li>
+        <li>
+          <input value="opcao6" name="op6" type="checkbox" id="op6" />
+          <label for="op6">Outra </label>
+        </li>
+      </ul>
+      <p>Adcione comentários ou sugestões</p>
+      <textarea></textarea>
+      <button id="submit">Enviar</button>
     </form>
     <p>Por: Guilherme Gomes</p>
-</body>
-
+  </body>
 </html>
